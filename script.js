@@ -12,7 +12,7 @@ async function getData(API, displayBooks) {
 }
 
 getData(API, function displayBooks(data) {
-  console.log(data);
+  // console.log(data);
   data.map((item) => {
     container.innerHTML += `
       <div class="card m-1" style="width: 18rem;">
